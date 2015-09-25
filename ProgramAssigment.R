@@ -27,8 +27,8 @@ FeaturesNames <- read.table("./features.txt", header = F)
 
 FeaturesData <- rbind(FeaturesTest, FeaturesTrain)
 SubjectData <- rbind(SubjectTest, SubjectTrain)
-
 ActivityData <- rbind(ActivityTest, ActivityTrain)
+
 names(ActivityData) <- "ActivityN"
 names(ActivityLabels) <- c("ActivityN", "Activity")
 
