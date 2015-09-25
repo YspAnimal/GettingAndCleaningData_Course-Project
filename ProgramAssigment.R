@@ -29,17 +29,17 @@ FeaturesData <- rbind(FeaturesTest, FeaturesTrain)
 SubjectData <- rbind(SubjectTest, SubjectTrain)
 ActivityData <- rbind(ActivityTest, ActivityTrain)
 
-names(ActivityData) <- "ActivityN"
+names(ActivityData) <- "Activity"
 names(ActivityLabels) <- c("ActivityN", "Activity")
 
-ActivityData <- join(ActivityData, ActivityLabels, "ActivityN")#[, 2]
+#ActivityData <- join(ActivityData, ActivityLabels, "ActivityN")#[, 2]
 
 names(SubjectData) <- "Subject"
 names(FeaturesData) <- FeaturesNames$V2
-names(ActivityData) <- 
+#names(ActivityData) <- 
 
 
-DataSet <- cbind(SubjectData, Activity)
+DataSet <- cbind(SubjectData, ActivityData)
 DataSet <- cbind(DataSet, FeaturesData)
 
 
