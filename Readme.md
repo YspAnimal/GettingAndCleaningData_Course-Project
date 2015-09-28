@@ -9,7 +9,7 @@ analysis. A full description of the data used in this project can be found at [T
 [The source data for this project can be found here.](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 ### Making Modifications to This Script
-Set working directory: setwd("C:/RScripts/GettingAndCleaningData_Course-Project")
+Use working directory: "C:/RScripts/GettingAndCleaningData_Course-Project"
 
 ### Project Summary
 The following is a summary description of the project instructions
